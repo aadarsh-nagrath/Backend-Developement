@@ -1,5 +1,9 @@
 # Comprehensive Guide to Client-Side Caching
 
+
+## ARTICLES -
+https://redis.io/docs/latest/develop/reference/client-side-caching/
+
 ## Introduction to Client-Side Caching
 
 **Client-side caching** is a technique used to enhance the performance of applications by storing frequently accessed data in the memory of the client (e.g., application server, browser, or mobile app) rather than repeatedly querying a remote database or server. By leveraging the client’s local memory, which has significantly lower latency than networked services, client-side caching reduces data retrieval times, decreases server load, and improves scalability. This approach is particularly effective for datasets where a small subset of data is accessed frequently and changes infrequently, such as user profiles, social media posts, or static web assets.
